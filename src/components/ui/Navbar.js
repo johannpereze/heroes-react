@@ -6,7 +6,7 @@ export const Navbar = () => {
     const navigate = useNavigate()
 
     const handleLogout = () => {
-        navigate("/login", {replace:true})
+        navigate("/login", { replace: true })
     }
 
     return (
